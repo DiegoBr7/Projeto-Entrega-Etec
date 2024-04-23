@@ -105,6 +105,7 @@ header img{
   height: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  padding-bottom: 100px;
 }
 
 .card {
@@ -255,8 +256,81 @@ header img{
 
 /* ___________________________________________________________________________________________________________ */
 
-.page-footer {
+
+footer{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+footer > div {
+
+  margin-right: 130px;
+}
+
+ul{
+  list-style-type: none;
+
+}
+li{
+  list-style-type: none;
+}
+.ftr1{
+
+display: flex;
+padding-bottom: 50px;
+margin-left: 80px;
+
+}
+
+.ftr1 p{
+  max-width: 300px;
   width: 100%;
-  height: 200px;
-  background-color: var(--primary-color);
+
+  text-align: center;
+}
+
+
+.ftr2{
+
+  font-size: 14px;
+}
+.ftr2  b{
+  font-size: 17px;
+}
+
+.ftr2 li {
+  margin-top: 1.5rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.ftr2 a{
+
+}
+
+.ftr3 li , a{
+  margin-top: 1.5rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.ftr3  b{
+  font-size: 17px;
+}
+
+.ftr4 li , a{
+  margin-top: 0.5rem;
+  text-decoration: none;
+  color: #000;
+}
+.ftr4 > ul{
+display: flex;
+
+}
+
+.ftr4  img{
+  margin-left: 30px;
 }
